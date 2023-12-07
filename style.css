@@ -70,6 +70,16 @@ li{
 	font-weight: 300;
 	
 }
+
+.mcsImg{
+	margin-left: 15%;
+	text-align: center;
+	margin-right: 10%;
+	object-fit: cover;
+	width: 70vw;
+	height: 55vh;
+	border-radius: 10px;
+}
 .mainTitle{
 	font-weight: 700;
 	font-size: 9vh;
@@ -181,8 +191,8 @@ li{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr); 
-    gap: 10px; 
-	margin-left: 15%;
+    gap: 50px; 
+	margin-left: 13%;
 	margin-right: 15%;
 }
 
@@ -267,38 +277,38 @@ li{
 
 #item1 {
 	background-image: url("onPhone.jpg");
-	opacity: 0.75;
+	opacity: 0.8;
 	background-size: 20vh;
 	z-index: 0;
 }
 #item2{
 	background-image: url("money.jpg");
 	background-size: 40vh;
-	opacity: 0.75;
+	opacity: 0.8;
 }
 
 #item3{
 	background-image: url("manDancing.jpg");
 	background-size: 50vh;
-	opacity: 0.75;
+	opacity: 0.8;
 }
 
 #item4{
 	background-image: url("posing.jpg");
 	background-size: 30vh;
-	opacity: 0.75;
+	opacity: 0.8;
 }
 
 #item5{
 	background-image: url("ringLight.jpg");
 	background-size: 35vh;
-	opacity: 0.75;
+	opacity: 0.8;
 }
 
 #item6{
 	background-image: url("gymBro.jpg");
 	background-size: 40vh;
-	opacity: 0.75;
+	opacity: 0.8;
 }
 
 #item1:hover, #item2:hover, #item3:hover, #item4:hover,#item5:hover,#item6:hover{
