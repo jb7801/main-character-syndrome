@@ -10,7 +10,7 @@ h1{
 h2{
 	margin-left: 70px;
 	font-size: 4vh;
-	color: #3a3a42 ;
+	color: #000000 ;
 }
 h3{
 	font-size: 5vh;
@@ -102,7 +102,7 @@ li{
 }
 .stepItem a{
 	font-size: 3vh;
-	color:#000;
+	color:rgb(68, 68, 68);
 	text-decoration: none;
 	padding: 20px;
 	border-radius: 20px;
@@ -117,8 +117,8 @@ li{
 .quizDiv{
 	display: flex;
 	justify-content: center;
-	width: 30vw; 
-	height: 30vh;
+	width: 35vw; 
+	height: 40vh;
 	align-items: center;
 	margin-left: 35%;
 	border: 1px solid rgb(223, 223, 223);
@@ -138,7 +138,8 @@ li{
 }
 #question{
 	font-size: 3.5vh;
-	padding: 1%;
+	padding: 3%;
+	padding-bottom: 0;
 
 }
 
@@ -153,6 +154,10 @@ li{
 	background-color:hsla(0, 0%, 88%, 0.749);
 	border: 1px solid rgb(158, 158, 158);
 	border-radius: 5px;
+}
+
+#try-again{
+	margin-left: 10%;
 }
 
 .treatmentDiv{
@@ -197,7 +202,7 @@ li{
 }
 
 .grid-item {
-    background-color: #ddd; 
+    background-color: rgba(236, 235, 235, 0); 
     border: 1px solid #ccc; 
     padding: 20px; 
     text-align: center;
@@ -480,6 +485,7 @@ li{
 .affectInfo{
 	font-size: 2.5vh;
 	margin-left: 8%;
+	margin-right: 6%;
 	margin-bottom: 7%;
 }
 
