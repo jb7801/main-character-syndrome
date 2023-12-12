@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
             nextButton.style.display = "none";
             tryAgainButton.style.display = "block";
         } else {
-            messageElement.innerText = "You do not have main character syndrome.";
+            messageElement.innerText = "You do not have main character syndrome... Loser!";
         }
         resultElement.style.display = "block";
         quizElement.style.display = "none"; // Hide the quiz elements
