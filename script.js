@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
             nextButton.style.display = "none";
             tryAgainButton.style.display = "block";
         } else {
-            messageElement.innerText = "You do not have main character syndrome... Loser!";
+            messageElement.innerText = "You don't have main character syndrome... loser!";
         }
         resultElement.style.display = "block";
         quizElement.style.display = "none"; // Hide the quiz elements
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
             hasMainCharacterSyndrome = false;
         } else {
             if (!hasMainCharacterSyndrome) {
-                messageElement.innerText = "You don't have main character syndrome.";
+                messageElement.innerText = "You don't have main character syndrome...loser!";
                 resultElement.style.display = "block";
                 quizElement.style.display = "none"; // Hide the quiz elements
                 nextButton.style.display = "none"; // Hide the "Next Question" button
